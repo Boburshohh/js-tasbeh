@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 40%;
+    justify-content:center;
+    background: url('https://i4.stat01.com/2/4156/141559157/afacdb/hi-macs-black-bird-g47.jpg');
+}
+.container section{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 62, 222, 0.122);
+    border-radius: 50px;
+    display: grid;
+    grid-template-rows: 15% 15% 15% 45%;
+    text-align: center;
+}
+.container section .item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container section .item nav ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.container section .item nav ul li{
+    float: left;
+    margin: 10px 30px;
+}
+.container section .item nav ul li svg{
+    width: 38px;
+    height: 38px;
+    color: #fff;
+}
+.container section .item h1{
+    font-size: 2.9rem;
+    color: rgb(255, 255, 255);
+}
+.container section .item .zikr{
+    width: 70%;
+    height: 50%;
+    background: none;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: #fff;
+}
+#qwe{
+    width: 50px;
+    height: 50px;
+}
+.container section .item .zikr{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-family: cursive;
+    position: relative;
+    top: 5px;
+}
+.container section .item .tasbeh_clik{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(32, 70, 157);
+    border-radius: 50%;
+    border-color: #fff;
+    margin-top: 100px;
+    box-shadow: 2.28191px 2.28191px 2.28191px rgba(0, 0, 0, 0.5), 2.28191px -2.28191px 2.28191px rgba(0, 0, 0, 0.4), -2.28191px 2.28191px 2.28191px rgba(0, 0, 0, 0.5), -2.28191px -2.28191px 2.28191px rgba(0, 0, 0, 0.4), inset -5.70479px -5.70479px 5.70479px #000000, inset -5.70479px 5.70479px 5.70479px #ffc800, inset 5.70479px -5.70479px 5.70479px #991d1d, inset 5.70479px 5.70479px 5.70479px #00aaff;
+    
+    
+}
+.qwe{
+    width: 100px;
+    height: 100px;
+    /* display: none; */
+    background-color: #00aaff;
+}
+.qwe {
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: #ffc800;
+}
+span{
+    color: #fff;
+    font-size: 2rem;
+}
+.container section .item .tasbeh_clik:active{
+    background-color: rgb(154, 192, 19);
+    transform: scale(1.1);
+    transition: all 0.3s;
+    transform: rotate(20deg);
+    box-shadow: 2.28191px 2.28191px 2.28191px rgba(0, 0, 0, 0.5), 2.28191px -2.28191px 2.28191px rgba(0, 0, 0, 0.4), -2.28191px 2.28191px 2.28191px rgba(0, 0, 0, 0.5), -2.28191px -2.28191px 2.28191px rgba(0, 0, 0, 0.4), inset -5.70479px -5.70479px 5.70479px #000000, inset -5.70479px 5.70479px 5.70479px #000000, inset 5.70479px -5.70479px 5.70479px #000000, inset 5.70479px 5.70479px 5.70479px #000000;
+}
+.zikrlar{
+    width: 40%;
+    height: 80%;
+    background-color: #000000b8;
+    position: fixed;
+    border-radius: 50px;
+    left: 30%;
+    display: none;
+
+}
+.zikrlar select{
+    width: 100%;
+    height: 100%;
+    background-color: #4005cbb9;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+.zikrlar select option{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding-top: 20px;
+    border: 5px solid rgb(80, 46, 46);
+    border-radius: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
+select::-webkit-scrollbar{
+    display: none;
+}
+.zikrlar .item h1{
+    padding-top: 20px;
+}
+.setting{
+    width: 80%;
+    height: 400px;
+    background-color: #ac0f0fd7;
+    position: relative;
+    top: -450px;
+    left: 50px;
+    border-radius: 50px;
+    display: none;
+}
